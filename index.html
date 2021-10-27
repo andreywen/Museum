@@ -1,0 +1,100 @@
+<!-- Shift-Alt-F    -  сделать код красивым-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Museum</title>
+	<link href="style.css" rel="stylesheet">
+	<style>
+		.header {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			background-color: black;
+			color: azure;
+			padding: 20px;
+			;
+
+		}
+
+		.highliter {
+			/*border: 5px solid blue;*/
+			outline: 1px solid blue; /*see that later*/
+			/*width: 100%;*/
+			height: 100px;
+		}
+
+		.navigation {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.navigation div {
+			margin-right: 20px;
+
+		}
+
+		.navigation div:last-child {
+			margin-right: 0px;
+		}
+
+		.logo{
+			width: 125px;
+			height: 50px;
+			left: 70px;
+			top: 0px;
+
+			font-family: Forum;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 28px;
+			line-height: 50px;
+			/* identical to box height, or 179% */
+
+			letter-spacing: 5px;
+			text-transform: uppercase;
+
+			color: #FFFFFF;
+		}
+
+	</style>
+	<meta http-eqviv="Content-Type">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+
+<body>
+	<header class="header highliter">
+
+
+
+		<img src="assets/img/Vector.png" alt="vector">
+		<div class="logo">Louvre</div>
+
+
+		<div class="navigation">
+			<div>Visiting</div>
+			<div>Explore</div>
+			<div>Tickets</div>
+			<div>Contacts</div>
+			<div>Video</div>
+		</div>
+	
+	</header>
+
+
+	<main class="content highliter">
+        <p><h1>Welcome to the Louvre</h1></p>
+        <p><h4>From the castle to the Museum</h4></p> 
+
+
+	</main>
+
+
+	<footer class="footer highliter">
+
+	</footer>
+</body>
+
+</html>
