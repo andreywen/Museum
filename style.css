@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: azure;
+    padding: 20px;
+}
+
+.highliter {
+    /*border: 5px solid blue;*/
+    outline: 1px solid darkred; /*see that later*/
+    /*width: 100%;*/
+    height: 100px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation div {
+    margin-right: 20px;
+
+}
+
+.navigation div:last-child {
+    margin-right: 0px;
+}
+
+.logo{
+    width: 125px;
+    height: 50px;
+    left: 70px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 50px;
+    /* identical to box height, or 179% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.buttons
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 63px;
+}
+
+.red_button
+{
+    padding: 15px 39px 17px 38px;
+    border-radius: 25px;
+    background-color: darkred;
+    color: #ffffff;
+    margin-right: 17px;
+    text-decoration: none;
+}
