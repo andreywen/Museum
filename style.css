@@ -1,3 +1,5 @@
+
+/*header styles*/
 .header {
     display: flex;
     flex-direction: row;
@@ -5,14 +7,14 @@
     align-items: center;
     background-color: black;
     color: azure;
+    height: 200px;
     padding: 20px;
 }
 
-.highliter {
+.header_highliter {
     /*border: 5px solid blue;*/
-    outline: 1px solid darkred; /*see that later*/
+    outline: 3px solid darkred; /*see that later*/
     /*width: 100%;*/
-    height: 100px;
 }
 
 .navigation {
@@ -61,3 +63,69 @@
     margin-right: 17px;
     text-decoration: none;
 }
+
+
+
+
+
+/*main styles*/
+
+.main_highliter {
+    /*border: 5px solid blue;*/
+    outline: 3px solid darkblue; /*see that later*/
+    /*width: 100%;*/
+    height: 750px;
+}
+
+.welcome_section{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    height: 750px;
+    /*padding: 20px*/
+}
+
+.welcome_text{
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer styles*/
+
+
+
+.footer_highliter {
+    /*border: 5px solid blue;*/
+    outline: 3px solid green; /*see that later*/
+    /*width: 100%;*/
+    height: 200px;
+}
+
+
+
+
+
