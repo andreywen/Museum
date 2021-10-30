@@ -1,5 +1,15 @@
+.museum{
+    width: 1920px;
+    height: 6245px;
+    outline: 3px solid darkred; /*see that later*/
+}
 
 /*header styles*/
+.header_container{
+    width: 1440px;
+}
+
+
 .header {
     display: flex;
     flex-direction: row;
@@ -17,6 +27,15 @@
     /*width: 100%;*/
 }
 
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -24,14 +43,13 @@
 
 .navigation div {
     margin-right: 20px;
-
 }
 
 .navigation div:last-child {
     margin-right: 0px;
 }
 
-.logo{
+.logo_text{
     width: 125px;
     height: 50px;
     left: 70px;
@@ -70,11 +88,17 @@
 
 /*main styles*/
 
+.content{
+    height: 5556px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
 .main_highliter {
     /*border: 5px solid blue;*/
     outline: 3px solid darkblue; /*see that later*/
     /*width: 100%;*/
-    height: 750px;
+    /*height: 2000px;*/
 }
 
 .welcome_section{
@@ -92,18 +116,30 @@
 
 }
 
+.virtual_tour{
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*background-color: #ffffff;*/
+    /*justify-content: space-between;*/
+    align-items: center;
+    height: 1115px;
+    outline: 3px solid darkred;
+    /*padding: 20px*/
+    margin-left: 200px;
+    margin-right: 200px;
+}
 
+.tour_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    outline: 3px solid blueviolet;
+}
 
-
-
-
-
-
-
-
-
-
-
+.tour_card{
+outline: 3px solid darkred;
+}
 
 
 
@@ -115,7 +151,13 @@
 
 
 /*footer styles*/
-
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
 
 
 .footer_highliter {
