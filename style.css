@@ -75,7 +75,7 @@
 .red_button
 {
     padding: 15px 39px 17px 38px;
-    border-radius: 25px;
+    /*border-radius: 25px;*/
     background-color: darkred;
     color: #ffffff;
     margin-right: 17px;
